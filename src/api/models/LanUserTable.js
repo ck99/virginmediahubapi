@@ -13,7 +13,8 @@ module.exports = {
     name: "LanUserTable",
     route: "lan_user_table",
     functionNumber: 123,
-    tags: ["Devices"],
+    tags: ["LAN"],
+    description: "Show details of connected devices",
     schema,
     normalizers: [
         response => {

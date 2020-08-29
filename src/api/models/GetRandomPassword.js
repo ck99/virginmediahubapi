@@ -9,7 +9,7 @@ module.exports = {
     name,
     rootElement: "GstRandomPassword",
     route: "get_random_password",
-    tags: ["internal"],
+    tags: ["Internal"],
     description: "Generate a random password",
     functionNumber: 325,
     schema,

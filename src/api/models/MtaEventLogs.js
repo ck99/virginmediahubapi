@@ -6,6 +6,7 @@ module.exports = {
     name,
     route: "mta_event_logs",
     functionNumber: 503,
+    tags: ["Logging"],
     schema,
     normalizers: [
       response => {

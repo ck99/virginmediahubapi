@@ -20,5 +20,6 @@ module.exports = {
     rootElement: "status",
     route: "wifi_status",
     functionNumber: 5,
+    tags: ["Configuration"],
     schema
 }

@@ -14,6 +14,7 @@ module.exports = {
     route: "inbound_ipv6filtering",
     functionNumber: 111,
     functionRule: 0,
+    tags: ["Security"],
     schema,
     normalizers: [
         require('../normalizers').objectToArray(["instance"])

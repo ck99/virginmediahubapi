@@ -21,5 +21,6 @@ module.exports = {
     route: "cm_wireless_wps_info",
     rootElement: "cm_wirelessWPS",
     functionNumber: 309,
+    tags:["Configuration"],
     schema,
 }

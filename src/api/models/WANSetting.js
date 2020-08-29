@@ -22,6 +22,7 @@ module.exports = {
     name,
     route: "wan_setting",
     functionNumber: 107,
+    tags: ["WAN"],
     schema,
     normalizers: [
       require('../normalizers').objectToArray(["wan_ipv6_dnsaddr", "wan_ipv6_addr"])

@@ -8,10 +8,12 @@ let schema = schemaTools.fromExample({
   "Line": schemaTools.arrayOf("PhoneLineStatus")
 });
 
-let name = "status";
+let name = "router_status";
 module.exports = {
     name,
     route: name,
+    rootElement: "status",
     functionNumber: 500,
+    tags: ["Configuration"],
     schema,
 }

@@ -10,6 +10,7 @@ module.exports = {
     name,
     route: name,
     functionNumber: 143,
+    tags: ["Configuration"],
     schema,
     normalizers: [
         require('../normalizers').emptyStringElementsToEmptyObjects(["port"])

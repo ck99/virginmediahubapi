@@ -12,5 +12,6 @@ module.exports = {
     name,
     route: "ipfiltering",
     functionNumber: 109,
+    tags: ["Security"],
     schema,
 }

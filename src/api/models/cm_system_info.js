@@ -4,6 +4,7 @@ module.exports = {
     name: "cm_system_info",
     route: "cm_system_info",
     functionNumber: 2,
+    tags:["Configuration"],
     schema: schemaTools.fromExample({
         "cm_docsis_mode": "DOCSIS 3.0",
         "cm_hardware_version": "5.01",

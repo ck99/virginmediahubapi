@@ -5,5 +5,6 @@ module.exports = {
     name,
     route: name,
     functionNumber: 19,
+    tags: ["Logging"],
     schema: schemaTools.arrayOf("FirewallLogMessage"),
 }

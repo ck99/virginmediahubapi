@@ -13,6 +13,7 @@ module.exports = {
     name,
     route: "mac_filtering",
     functionNumber: 119,
+    tags: ["Security"],
     schema,
     normalizers: [
         require('../normalizers').objectToArray(["instance"])

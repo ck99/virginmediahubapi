@@ -4,6 +4,7 @@ module.exports = {
     name: "GlobalSettings",
     route: "global_settings",
     functionNumber: 1,
+    tags: ["Configuration"],
     schema: schemaTools.fromExample({
         "AccessLevel": "1",
         "SwVersion": "CH7465LG-NCIP-6.12.18.26-3p7-1-NOSH",

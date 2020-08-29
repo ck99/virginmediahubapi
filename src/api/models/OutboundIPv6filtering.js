@@ -13,6 +13,7 @@ module.exports = {
     name,
     route: "outbound_ipv6filtering",
     functionNumber: 111,
+    tags: ["Security"],
     functionRule: 1,
     schema,
     normalizers: [

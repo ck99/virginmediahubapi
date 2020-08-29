@@ -57,6 +57,11 @@ let routeBuilder = model => {
                 if(loaderPath === definitionsPath) {
                     logger.debug(`${modelFilePath} looks like a model, but its in the definitions path`)
                 }
+
+                if(routes[model.route]) {
+                    logger.alert(`route conflict detected: ${model.route} already exists, while adding ${model.name}`)
+                }
+
                 routes[model.route] = routeBuilder(model)
                 template.paths[`/${model.route}`] = {
                     get: {
@@ -75,6 +80,7 @@ let routeBuilder = model => {
                     }
                 }
 
+                logger.debug(`Added route: ${model.route} -> ${model.name} (${modelFilePath})`)
 
             } else {
                 if(loaderPath === modelPath) {

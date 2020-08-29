@@ -15,8 +15,28 @@
   "basePath": "/hub",
   "tags": [
     {
-      "name": "Devices",
-      "description": "Information about attached devices"
+      "name": "Logging",
+      "description": "Log data"
+    },
+    {
+      "name": "LAN",
+      "description": "Information about LAN devices etc"
+    },
+    {
+      "name": "WAN",
+      "description": "Information about routers WAN connection"
+    },
+    {
+      "name": "Configuration",
+      "description": "Information about router configuration"
+    },
+    {
+      "name": "Security",
+      "description": "Information about access, firewalls, filtering etc"
+    },
+    {
+      "name": "Internal",
+      "description": "Functionality that is unlikely to be useful"
     }
   ],
   "schemes": [

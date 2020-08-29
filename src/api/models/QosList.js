@@ -7,6 +7,7 @@ module.exports = {
     name,
     route: "qos_list",
     functionNumber: 502,
+    tags: ["LAN"],
     schema,
     normalizers: [
         response => {

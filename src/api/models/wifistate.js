@@ -10,5 +10,6 @@ module.exports = {
     name,
     route: name,
     functionNumber: 326,
+    tags: ["LAN"],
     schema,
 }

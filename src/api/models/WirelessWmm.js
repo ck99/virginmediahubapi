@@ -14,5 +14,6 @@ module.exports = {
     name,
     route: "wireless_wmm",
     functionNumber: 302,
+    tags: ["Configuration"],
     schema,
 }

@@ -12,6 +12,8 @@ module.exports = {
   route: "provisioning",
   rootElement: "Provivsioning",
   functionNumber: 504,
+  tags: ["Configuration"],
+  description: "Internal Configs for router, including config of attached telephone line",
   schema,
   normalizers: [
     response => {

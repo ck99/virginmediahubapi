@@ -14,5 +14,6 @@ module.exports = {
     name,
     route: "web_filter",
     functionNumber: 115,
+    tags: ["Security"],
     schema,
 }

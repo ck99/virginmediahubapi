@@ -10,5 +10,6 @@ module.exports = {
     name,
     route: "wireless_client",
     functionNumber: 322,
+    tags: ["LAN"],
     schema,
 }

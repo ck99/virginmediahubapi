@@ -1,13 +1,13 @@
 {
   "name": "virginmediahubapi",
   "repository": "https://github.com/ck99/virginmediahubapi",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "expose functionality of Virgin Media Hub through an API",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Ciaran Kelly",
   "license": "ISC",
   "dependencies": {
     "puppeteer": "^5.2.1",

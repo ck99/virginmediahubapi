@@ -11,5 +11,6 @@ module.exports = {
     name,
     route: "remote_access",
     functionNumber: 131,
+    tags: ["Security"],
     schema,
 }

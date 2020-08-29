@@ -9,5 +9,6 @@ module.exports = {
     name,
     route: "fail",
     functionNumber: 22,
+    tags: ["Logging"],
     schema,
 }

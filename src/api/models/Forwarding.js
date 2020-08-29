@@ -9,5 +9,6 @@ module.exports = {
     name,
     route: "forwarding",
     functionNumber: 121,
+    tags: ["Security"],
     schema,
 }

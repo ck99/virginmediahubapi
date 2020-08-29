@@ -37,9 +37,10 @@ let schema = schemaTools.fromExample({
 
 let name = "WirelessBasicSettings";
 module.exports = {
-    name,
-    rootElement: "WirelessBasic",
-    route: "wireless_basic_settings",
-    functionNumber: 300,
-    schema,
+  name,
+  rootElement: "WirelessBasic",
+  route: "wireless_basic_settings",
+  functionNumber: 300,
+  tags: ["Configuration"],
+  schema,
 }

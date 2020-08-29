@@ -14,5 +14,6 @@ module.exports = {
     name,
     route: "ipv6_web_filter",
     functionNumber: 117,
+    tags: ["Security"],
     schema,
 }

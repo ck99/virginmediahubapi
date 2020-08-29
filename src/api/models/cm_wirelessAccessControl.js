@@ -21,5 +21,6 @@ module.exports = {
     name,
     route: "cm_wireless_access_control",
     functionNumber: 311,
+    tags:["Configuration"],
     schema,
 }

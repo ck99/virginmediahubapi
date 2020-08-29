@@ -49,8 +49,9 @@ let schema = schemaTools.fromExample({
 
 let name = "ChannelMap";
 module.exports = {
-    name,
-    route: "channel_map",
-    functionNumber: 313,
-    schema,
+  name,
+  route: "channel_map",
+  functionNumber: 313,
+  tags: ["WAN"],
+  schema,
 }

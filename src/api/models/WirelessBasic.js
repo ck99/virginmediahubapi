@@ -13,5 +13,6 @@ module.exports = {
     name,
     route: "wireless_basic",
     functionNumber: 315,
+    tags: ["Configuration"],
     schema,
 }

@@ -10,5 +10,6 @@ module.exports = {
     name,
     route: "cm_wireless_wps",
     functionNumber: 323,
+    tags:["Configuration"],
     schema,
 }

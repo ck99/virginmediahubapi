@@ -7,5 +7,6 @@ module.exports = {
     name,
     route: "port_trigger",
     functionNumber: 113,
+    tags: ["Security"],
     schema,
 }

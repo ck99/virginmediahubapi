@@ -22,5 +22,6 @@ module.exports = {
     name,
     route: name,
     functionNumber: 144,
+    tags:["Configuration"],
     schema,
 }

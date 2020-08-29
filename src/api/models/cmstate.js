@@ -13,6 +13,7 @@ module.exports = {
     name,
     route: name,
     functionNumber: 136,
+    tags:["Configuration"],
     schema,
     normalizers: [
         require('../normalizers').objectToArray(["wan_ipv6_addr"])

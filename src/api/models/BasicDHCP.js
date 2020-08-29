@@ -16,6 +16,7 @@ module.exports = {
     name,
     route: "basic_dhcp",
     functionNumber: 105,
+    tags: ["LAN"],
     schema,
     normalizers: [
         response => {

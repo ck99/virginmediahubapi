@@ -9,5 +9,6 @@ module.exports = {
     name,
     route: "mtu_size",
     functionNumber: 134,
+    tags: ["Configuration"],
     schema,
 }

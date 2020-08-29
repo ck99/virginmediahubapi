@@ -18,5 +18,6 @@ module.exports = {
     name,
     route: "dhcpv6_info",
     functionNumber: 103,
+    tags: ["LAN"],
     schema,
 }

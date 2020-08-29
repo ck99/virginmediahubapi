@@ -16,5 +16,6 @@ module.exports = {
     rootElement: "WirelessGuestNetwork",
     route: "wireless_guest_network_customer",
     functionNumber: 317,
+    tags: ["LAN"],
     schema,
 }

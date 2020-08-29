@@ -6,10 +6,12 @@ let schema = schemaTools.fromExample({
   "WiFikey": schemaTools.ref("PSK"),
 });
 
-let name = "DefaultValue";
+let name = "DefaultCredentials";
 module.exports = {
     name,
-    route: "default_value",
+    route: "default_credentials",
+    rootElement: "DefaultValue",
     functionNumber: 324,
+    tags:["Security"],
     schema,
 }

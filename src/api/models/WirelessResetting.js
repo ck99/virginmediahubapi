@@ -7,8 +7,8 @@ let schema = schemaTools.fromExample({
 let name = "WirelessResetting";
 module.exports = {
     name,
-    tags: ["Test"],
     route: "wireless_resetting",
     functionNumber: 328,
+    tags: ["Internal"],
     schema,
 }

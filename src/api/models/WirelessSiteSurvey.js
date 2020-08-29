@@ -12,5 +12,6 @@ module.exports = {
     name,
     route: "wireless_site_survey",
     functionNumber: 305,
+    tags: ["Internal"],
     schema,
 }

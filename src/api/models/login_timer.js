@@ -10,5 +10,6 @@ module.exports = {
     name,
     route: name,
     functionNumber: 24,
+    tags: ["Internal"],
     schema,
 }
