@@ -1,0 +1,21 @@
+{
+  "name": "virginmediahubapi",
+  "repository": "https://github.com/ck99/virginmediahubapi",
+  "version": "1.0.0",
+  "description": "expose functionality of Virgin Media Hub through an API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^5.2.1",
+    "xml2js": "^0.4.23",
+    "express": "^4.17.1",
+    "swagger-ui-express": "^4.1.4",
+    "lodash": "^4.17.20",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {}
+}

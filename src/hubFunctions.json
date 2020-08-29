@@ -1,0 +1,262 @@
+[
+  {
+    "functionNumber": "1",
+    "rootElement": "GlobalSettings",
+    "route": "global_settings"
+  },
+  {
+    "functionNumber": "2",
+    "rootElement": "cm_system_info",
+    "route": "cm_system_info"
+  },
+  {
+    "functionNumber": "3",
+    "rootElement": "multilang",
+    "route": "multilang"
+  },
+  {
+    "functionNumber": "5",
+    "rootElement": "status",
+    "route": "status"
+  },
+  {
+    "functionNumber": "6",
+    "rootElement": "configuration",
+    "route": "configuration"
+  },
+  {
+    "functionNumber": "10",
+    "rootElement": "downstream_table",
+    "route": "downstream_table"
+  },
+  {
+    "functionNumber": "11",
+    "rootElement": "upstream_table",
+    "route": "upstream_table"
+  },
+  {
+    "functionNumber": "12",
+    "rootElement": "signal_table",
+    "route": "signal_table"
+  },
+  {
+    "functionNumber": "13",
+    "rootElement": "eventlog_table",
+    "route": "eventlog_table"
+  },
+  {
+    "functionNumber": "19",
+    "rootElement": "firewalllog_table",
+    "route": "firewalllog_table"
+  },
+  {
+    "functionNumber": "21",
+    "rootElement": "langsetlist",
+    "route": "langsetlist"
+  },
+  {
+    "functionNumber": "22",
+    "rootElement": "Fail",
+    "route": "fail"
+  },
+  {
+    "functionNumber": "24",
+    "rootElement": "login_timer",
+    "route": "login_timer"
+  },
+  {
+    "functionNumber": "100",
+    "rootElement": "LANSetting",
+    "route": "lan_setting"
+  },
+  {
+    "functionNumber": "103",
+    "rootElement": "DHCPv6Info",
+    "route": "dhcpv6_info"
+  },
+  {
+    "functionNumber": "105",
+    "rootElement": "BasicDHCP",
+    "route": "basic_dhcp"
+  },
+  {
+    "functionNumber": "107",
+    "rootElement": "WANSetting",
+    "route": "wan_setting"
+  },
+  {
+    "functionNumber": "109",
+    "rootElement": "IPfiltering",
+    "route": "ipfiltering"
+  },
+  {
+    "functionNumber": "111",
+    "rootElement": "IPv6filtering",
+    "route": "ipv6filtering"
+  },
+  {
+    "functionNumber": "113",
+    "rootElement": "PortTrigger",
+    "route": "port_trigger"
+  },
+  {
+    "functionNumber": "115",
+    "rootElement": "WebFilter",
+    "route": "web_filter"
+  },
+  {
+    "functionNumber": "117",
+    "rootElement": "IPv6WebFilter",
+    "route": "ipv6_web_filter"
+  },
+  {
+    "functionNumber": "119",
+    "rootElement": "MACFiltering",
+    "route": "mac_filtering"
+  },
+  {
+    "functionNumber": "121",
+    "rootElement": "Forwarding",
+    "route": "forwarding"
+  },
+  {
+    "functionNumber": "123",
+    "rootElement": "LanUserTable",
+    "route": "lan_user_table"
+  },
+  {
+    "functionNumber": "131",
+    "rootElement": "RemoteAccess",
+    "route": "remote_access"
+  },
+  {
+    "functionNumber": "134",
+    "rootElement": "MTUSize",
+    "route": "mtu_size"
+  },
+  {
+    "functionNumber": "136",
+    "rootElement": "cmstate",
+    "route": "cmstate"
+  },
+  {
+    "functionNumber": "137",
+    "rootElement": "wiredstate",
+    "route": "wiredstate"
+  },
+  {
+    "functionNumber": "143",
+    "rootElement": "wiredstate",
+    "route": "wiredstate"
+  },
+  {
+    "functionNumber": "144",
+    "rootElement": "cmstatus",
+    "route": "cmstatus"
+  },
+  {
+    "functionNumber": "147",
+    "rootElement": "ethflaplist",
+    "route": "ethflaplist"
+  },
+  {
+    "functionNumber": "300",
+    "rootElement": "WirelessBasic",
+    "route": "wireless_basic"
+  },
+  {
+    "functionNumber": "302",
+    "rootElement": "WirelessWmm",
+    "route": "wireless_wmm"
+  },
+  {
+    "functionNumber": "305",
+    "rootElement": "WirelessSiteSurvey",
+    "route": "wireless_site_survey"
+  },
+  {
+    "functionNumber": "307",
+    "rootElement": "WirelessGuestNetwork",
+    "route": "wireless_guest_network"
+  },
+  {
+    "functionNumber": "309",
+    "rootElement": "cm_wirelessWPS",
+    "route": "cm_wireless_wps"
+  },
+  {
+    "functionNumber": "311",
+    "rootElement": "cm_wirelessAccessControl",
+    "route": "cm_wireless_access_control"
+  },
+  {
+    "functionNumber": "313",
+    "rootElement": "ChannelMap",
+    "route": "channel_map"
+  },
+  {
+    "functionNumber": "315",
+    "rootElement": "WirelessBasic",
+    "route": "wireless_basic"
+  },
+  {
+    "functionNumber": "317",
+    "rootElement": "WirelessGuestNetwork",
+    "route": "wireless_guest_network"
+  },
+  {
+    "functionNumber": "322",
+    "rootElement": "WirelessClient",
+    "route": "wireless_client"
+  },
+  {
+    "functionNumber": "323",
+    "rootElement": "cm_wirelessWPS",
+    "route": "cm_wireless_wps"
+  },
+  {
+    "functionNumber": "324",
+    "rootElement": "DefaultValue",
+    "route": "default_value"
+  },
+  {
+    "functionNumber": "325",
+    "rootElement": "GstRandomPassword",
+    "route": "gst_random_password"
+  },
+  {
+    "functionNumber": "326",
+    "rootElement": "wifistate",
+    "route": "wifistate"
+  },
+  {
+    "functionNumber": "328",
+    "rootElement": "WirelessResetting",
+    "route": "wireless_resetting"
+  },
+  {
+    "functionNumber": "500",
+    "rootElement": "status",
+    "route": "status"
+  },
+  {
+    "functionNumber": "501",
+    "rootElement": "dhcp",
+    "route": "dhcp"
+  },
+  {
+    "functionNumber": "502",
+    "rootElement": "QosList",
+    "route": "qos_list"
+  },
+  {
+    "functionNumber": "503",
+    "rootElement": "MtaEventLogs",
+    "route": "mta_event_logs"
+  },
+  {
+    "functionNumber": "504",
+    "rootElement": "Provivsioning",
+    "route": "provivsioning"
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "description": "VirginMedia Hub API (read only)",
+    "version": "1.0.0",
+    "title": "Virgin Media Hub",
+    "contact": {
+    },
+    "license": {
+      "name": "Apache 2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+    }
+  },
+  "host": "example.com",
+  "basePath": "/hub",
+  "tags": [
+    {
+      "name": "Devices",
+      "description": "Information about attached devices"
+    }
+  ],
+  "schemes": [
+    "http"
+  ],
+  "paths": {}
+}
